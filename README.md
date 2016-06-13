@@ -2,7 +2,7 @@
 
 The purpose of this homework is to leverage animations and gestures to create custom navigation. We're going to use the techniques from this week to implement some interactions in Tumblr.
 
-Time spent: `<Number of hours spent>`
+Time spent: `6 hours`
 
 ### Features
 
@@ -25,7 +25,7 @@ Time spent: `<Number of hours spent>`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Different ways to implement the Compose animations...I had three different animations with different times to get them to appear slightly out of sync.
-2. 
+2. The answer is probably incredibly simple, but I couldn't get the keyboard to appear automatically when the login page appears.
 
 ### Video Walkthrough 
 
