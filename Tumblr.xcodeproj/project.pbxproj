@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F10D6691D08C1BC000C9E1D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10D6681D08C1BC000C9E1D /* homeViewController.swift */; };
+		9F10D66B1D08C1D1000C9E1D /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10D66A1D08C1D1000C9E1D /* searchViewController.swift */; };
+		9F10D66D1D08C1E8000C9E1D /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10D66C1D08C1E8000C9E1D /* accountViewController.swift */; };
+		9F10D66F1D08C1FB000C9E1D /* trendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10D66E1D08C1FB000C9E1D /* trendingViewController.swift */; };
+		9F45AB701D0F61CB005B7BE8 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45AB6F1D0F61CB005B7BE8 /* loginViewController.swift */; };
 		9F7EC5D51D07A0B000A2961F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EC5D41D07A0B000A2961F /* AppDelegate.swift */; };
 		9F7EC5D71D07A0B000A2961F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EC5D61D07A0B000A2961F /* ViewController.swift */; };
 		9F7EC5DA1D07A0B000A2961F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EC5D81D07A0B000A2961F /* Main.storyboard */; };
 		9F7EC5DC1D07A0B000A2961F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EC5DB1D07A0B000A2961F /* Assets.xcassets */; };
 		9F7EC5DF1D07A0B000A2961F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EC5DD1D07A0B000A2961F /* LaunchScreen.storyboard */; };
+		9F7EC5E71D07A14C00A2961F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EC5E61D07A14C00A2961F /* TabBarViewController.swift */; };
+		9FCA259A1D0A443E00B38708 /* composeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA25991D0A443E00B38708 /* composeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F10D6681D08C1BC000C9E1D /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9F10D66A1D08C1D1000C9E1D /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		9F10D66C1D08C1E8000C9E1D /* accountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
+		9F10D66E1D08C1FB000C9E1D /* trendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendingViewController.swift; sourceTree = "<group>"; };
+		9F45AB6F1D0F61CB005B7BE8 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		9F7EC5D11D07A0B000A2961F /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EC5D41D07A0B000A2961F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7EC5D61D07A0B000A2961F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		9F7EC5DB1D07A0B000A2961F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7EC5DE1D07A0B000A2961F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7EC5E01D07A0B000A2961F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7EC5E61D07A14C00A2961F /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9FCA25991D0A443E00B38708 /* composeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = composeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				9F7EC5D41D07A0B000A2961F /* AppDelegate.swift */,
 				9F7EC5D61D07A0B000A2961F /* ViewController.swift */,
 				9F7EC5D81D07A0B000A2961F /* Main.storyboard */,
+				9F45AB6F1D0F61CB005B7BE8 /* loginViewController.swift */,
+				9FCA25991D0A443E00B38708 /* composeViewController.swift */,
+				9F10D66E1D08C1FB000C9E1D /* trendingViewController.swift */,
+				9F10D66C1D08C1E8000C9E1D /* accountViewController.swift */,
+				9F10D6681D08C1BC000C9E1D /* homeViewController.swift */,
+				9F10D66A1D08C1D1000C9E1D /* searchViewController.swift */,
+				9F7EC5E61D07A14C00A2961F /* TabBarViewController.swift */,
 				9F7EC5DB1D07A0B000A2961F /* Assets.xcassets */,
 				9F7EC5DD1D07A0B000A2961F /* LaunchScreen.storyboard */,
 				9F7EC5E01D07A0B000A2961F /* Info.plist */,
@@ -137,7 +158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7EC5D71D07A0B000A2961F /* ViewController.swift in Sources */,
+				9F10D66B1D08C1D1000C9E1D /* searchViewController.swift in Sources */,
+				9F10D66D1D08C1E8000C9E1D /* accountViewController.swift in Sources */,
+				9FCA259A1D0A443E00B38708 /* composeViewController.swift in Sources */,
+				9F7EC5E71D07A14C00A2961F /* TabBarViewController.swift in Sources */,
+				9F10D66F1D08C1FB000C9E1D /* trendingViewController.swift in Sources */,
 				9F7EC5D51D07A0B000A2961F /* AppDelegate.swift in Sources */,
+				9F10D6691D08C1BC000C9E1D /* homeViewController.swift in Sources */,
+				9F45AB701D0F61CB005B7BE8 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +313,7 @@
 				9F7EC5E51D07A0B000A2961F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
